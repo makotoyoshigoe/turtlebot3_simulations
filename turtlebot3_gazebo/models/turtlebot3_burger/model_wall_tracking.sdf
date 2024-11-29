@@ -137,10 +137,10 @@
         <ray>
           <scan>
             <horizontal>
-              <samples>360</samples>
+              <samples>1081</samples>
               <resolution>1.000000</resolution>
-              <min_angle>0.000000</min_angle>
-              <max_angle>6.280000</max_angle>
+              <min_angle>-2.356194</min_angle>
+              <max_angle>2.356194</max_angle>
             </horizontal>
           </scan>
           <range>
@@ -226,7 +226,7 @@
     <link name="wheel_right_link">
 
       <inertial>
-        <pose>0.0 -0.08 0.023 -1.57 0 0</pose>
+        <pose>0.0 -0.08 0.023 -1.57 3.14 0</pose>
         <inertia>
           <ixx>1.8158194e-03</ixx>
           <ixy>-9.3392e-12</ixy>
@@ -387,7 +387,7 @@
       <publish_odom_tf>true</publish_odom_tf>
       <publish_wheel_tf>false</publish_wheel_tf>
 
-      <odometry_topic>odom_hoge</odometry_topic>
+      <odometry_topic>odom</odometry_topic>
       <odometry_frame>odom</odometry_frame>
       <robot_base_frame>base_footprint</robot_base_frame>
 
